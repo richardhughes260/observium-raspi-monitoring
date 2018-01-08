@@ -40,8 +40,8 @@ extend .1.3.6.1.4.1.2021.7890.1 distro /usr/bin/distro
 EOF
 
 #Get distro script for /usr/bin
-wget https://github.com/richardhughes260/observium-raspi-monitoring/distro
-mv /usr/bin/distro
+#wget https://github.com/richardhughes260/observium-raspi-monitoring/distro
+mv distro /usr/bin/distro
 chmod 755 /usr/bin/distro
 
 service snmpd restart
